@@ -1,7 +1,7 @@
 package lec01_java_basics;
 
 // public - access modifier, Hello - Class name
-public class Hello {
+public class A_hello {
 	// main
 	public static void main(String[] args) {
 		// syso

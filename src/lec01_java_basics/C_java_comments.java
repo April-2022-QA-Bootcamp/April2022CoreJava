@@ -19,7 +19,7 @@ It can also be used to hide program code.
 
 
 
-public class JavaComments {
+public class C_java_comments {
 
 	public static void main(String[] args) {
 		

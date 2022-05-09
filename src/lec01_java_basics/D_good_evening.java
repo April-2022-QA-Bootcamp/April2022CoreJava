@@ -1,6 +1,6 @@
 package lec01_java_basics;
 
-public class GoodEvening01 {
+public class D_good_evening {
 	// Main method - this is the entry point of Java
 	public static void main(String[] args) {
 		// Here System is a class, out is a properties, println() is a method

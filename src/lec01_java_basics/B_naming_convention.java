@@ -13,7 +13,7 @@ package lec01_java_basics;
 // Camel case example for a class --> NamingConvention
 // Alternative example of Camel case, for a class --> Naming_convention
 
-public class NamingConvention {
+public class B_naming_convention {
 
 	public static void main(String[] args) {
 		System.out.println("This is all about Naming convention");

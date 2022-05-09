@@ -3,7 +3,7 @@ package lec01_java_basics;
 // we will learn print vs println
 // println is mostly used
 
-public class GoodEvening02 {
+public class E_good_evening {
 	public static void main(String[] args) {
 		// Here System is a class, out is a properties, print() is a method
 		System.out.print("Good Evening! ");
