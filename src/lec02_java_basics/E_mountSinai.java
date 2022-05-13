@@ -12,7 +12,7 @@ public class E_mountSinai {
 		System.out.println("The Mount Sinai Health System is a hospital network in New York City. It was formed in September 2013 by merging the operations of Continuum Health Partners and the Mount Sinai Medical Center.");
 		
 		// we used \n, \t, "1 tab = 8 space"
-		System.out.println("                       ");
+		System.out.println("\n---------------------------------------------------------------------\n");
 		System.out.println("\t The Mount Sinai Health System is a hospital network in New York City. \n\t It was formed in September 2013 by merging the operations of Continuum Health Partners and the Mount Sinai Medical Center.");
 
 	}
