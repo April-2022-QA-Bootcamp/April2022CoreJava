@@ -1,7 +1,5 @@
 package lec03_01_java_variables;
 
-import java.security.PublicKey;
-
 // Projects names generally starts with UpperCase
 // Camel case example for a project --> April2022CoreJava
 // Alternative example of Camel case (Called snake_case), for a project --> April_2022_core_java 

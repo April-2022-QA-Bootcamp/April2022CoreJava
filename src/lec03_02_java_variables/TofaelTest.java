@@ -1,4 +1,4 @@
-package lec03_02_java_variables.copy;
+package lec03_02_java_variables;
 
 public class TofaelTest {
 
