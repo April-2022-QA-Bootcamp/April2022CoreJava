@@ -1,6 +1,7 @@
-package lec03_02_java_variables;
+package lec04_01_java_variables_initialized;
 
 public class Tofael {
+	// variable initialized
 	public String name = "Mohammad Sharkar";
 	public byte age = 127;
 	public short myApartmentRent = 32767;
@@ -14,6 +15,15 @@ public class Tofael {
 	// Constructor declared
 	public Tofael () {
 		System.out.println("This is All about me --- \n");
+	}
+	
+	// method implemented
+	// here public is access modifier, void is type of method,
+	// myInfo name of the method
+	public void myInfo() {
+		System.out.println("My Name: " + name + "\nMy Age: " + age + "\nMy HouseRent: " + myApartmentRent
+				+ "\nYearly Salary: " + myYearlySalary + "\nMy Bank Balance: " + myBankBalance + "\nSex: " + sex
+				+ "\nMy Height: " + myHeight + "\nMy Grade: " + myGrade + "\nAm I US Citizen? Ans: " + usCitizen);		
 	}
 	
 }
