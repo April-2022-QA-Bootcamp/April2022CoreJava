@@ -1,5 +1,5 @@
 package lec05_02_java_constructor;
-
+// Tofael: Please don't teach parameterized method here from next batch, students become confused
 public class EmployeeTest {
 
 	public static void main(String[] args) {

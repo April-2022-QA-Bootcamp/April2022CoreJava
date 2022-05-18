@@ -1,5 +1,10 @@
 package lec05_01_java_constructor;
 
+// We can create parameterized constructor by -- select variables, right click
+// The go to source -- generate constructor using fields
+// Choose where you want to create it by choosing insertion point -- click Generate
+// Another way from top of the page -- select source -- follow same
+
 public class Employee {
 	// Global variable or Class variable
 	public String empName; // variables declared
