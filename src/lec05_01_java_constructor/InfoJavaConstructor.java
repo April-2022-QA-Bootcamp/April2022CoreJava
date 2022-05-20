@@ -10,7 +10,7 @@ package lec05_01_java_constructor;
 -- A constructor is a special method that is used to initialize a newly created object and is called just after the memory is allocated for the object. 
 
 3) Classification of Constructor?
--- default constructor (no argument constructor) and parameterized constructor
+-- default Constructor (no argument constructor) and 
 -- Parameterized Constructor
 -- you shouldn't write a parameterized constructor without writing a default constructor. It's a norm.
 -- A class can contain one default and one or more than one parameterized constructor
