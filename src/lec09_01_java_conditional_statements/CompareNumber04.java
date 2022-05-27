@@ -1,4 +1,4 @@
-package lec08_java_conditional_statements;
+package lec09_01_java_conditional_statements;
 
 /*
 Conditional Statement:
@@ -13,16 +13,18 @@ Whatever you want to print, it will be printed in else block. either it is true 
 But if we wish to write a second condition , we have to use 'else if', not 'else' 
  */
 
-public class CompareNumber03 {
+public class CompareNumber04 {
 
 	public static void main(String[] args) {
 		int val1 = 85;
-		int val2 = 54;
+		int val2 = 85;
 
 		if (val1 < val2) {
 			System.out.println(val1 + " is less than " + val2);
 		} else if (val1 > val2) {
 			System.out.println(val1 + " is greater than " + val2);
+		} else {
+			System.out.println(val1 + " is equal to " + val2);
 		}
 
 	}

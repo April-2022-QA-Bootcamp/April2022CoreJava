@@ -1,5 +1,4 @@
-package lec08_java_conditional_statements;
-
+package lec09_01_java_conditional_statements;
 
 /*
 Conditional Statement:
