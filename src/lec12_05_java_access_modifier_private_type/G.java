@@ -1,5 +1,7 @@
 package lec12_05_java_access_modifier_private_type;
 
+// private should be introduced before Encapsulation
+
 public class G {
 	
 	private String info3 = "This is coming from a variable which is private";

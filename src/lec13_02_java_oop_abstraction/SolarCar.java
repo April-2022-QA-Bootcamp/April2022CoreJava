@@ -1,4 +1,4 @@
-package lec12_02_java_oop_abstraction;
+package lec13_02_java_oop_abstraction;
 
 public abstract class SolarCar {
 	// Interview question: Can we create variables inside Abstract class?
