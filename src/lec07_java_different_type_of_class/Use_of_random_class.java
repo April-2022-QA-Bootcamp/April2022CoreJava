@@ -49,7 +49,14 @@ public class Use_of_random_class {
 		 short s = (short) Random.nextInt(Short.MAX_VALUE + 1);
 		 The +1 is because the method returns a number up to the number specified (exclusive).
 		 hopefully similar for byte
-		 */		
+		 */
+		
+		/*
+		 How to use eclipse Terminal to push the code?
+		 ctrl + shift + alt + T   -- To open a terminal
+		 To change the font in the Eclipse Terminal, use Window > Preferences > General > Appearance > Colors and Fonts and change the "Terminal Console Font".
+
+		 */
 	
 
 	}

@@ -8,6 +8,7 @@ package lec13_02_java_oop_abstraction;
 // a regular class can inherit more than one Interface
 // a regular class cannot inherit a regular class or abstract class by implements keyword
 
+// Tofael: In this lecture try to show variables, Constructor,  static and default type method in Regular class (get it from next lecture)
 public class Toyota extends ElectricCar implements Drone, Car{
 	// method is implemented inside class (not declared)
 	// also called non-abstract method

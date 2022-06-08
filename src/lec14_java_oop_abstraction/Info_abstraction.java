@@ -1,4 +1,4 @@
-package lec13_02_java_oop_abstraction;
+package lec14_java_oop_abstraction;
 
 /*
 
@@ -103,6 +103,53 @@ package lec13_02_java_oop_abstraction;
 30) Can a regular class inherit a regular or abstract class by implements keyword?
 -- No, we use the extends keyword for them.
 
+31) When can we get @Override annotation?
+-- When a regular class extends an abstract class or implements an interface, then the methods which are abstract, are implemented in the regular class by @Override annotation.
+
+32) Is it better to remove @Override annotation as no use of it?
+-- No, please don't remove @Override, because a programmer understands that this method comes from somewhere else, not a method of this class.
+
+33) What is the other name of the Abstract method?
+-- unimplemented method
+
+34) What is the other name of the Implemented method?
+-- non-abstract method
+
+35) Is it mandatory to use extends keyword when we use implements keyword in abstract class and regular class to inherit interface?
+-- No, we can use implements keyword without using extends keyword.
+
+36) What is a concrete class?
+-- when A regular class extends one regular class or abstract class and implements multiple interfaces, that regular class is called concrete class.
+
+37) An abstract can be a concrete class?
+-- No and never
+
+38) Can an object initialize (or call) a static method?
+-- No
+
+39) Who can call a static method?
+-- Directly by Class/Interface/Abstract class without creating objects. Static methods don't need an object to call.
+
+40) Can an Interface or Abstract class be instantiated?
+-- No
+
+41) How can an Interface or an Abstract class be instantiated?
+-- By the help of a concrete class.
+
+42) Can an Abstract class contain a static method?
+-- Yes
+
+43) Can an Abstract class contain variables?
+-- Yes
+
+44) Can an Abstract class contain a parameterized method or constructor?
+-- Yes
+
+45) Default methods are only allowed in Interface?
+-- True
+
+46) A regular class extends Abstract class implements Interface. can a regular class directly (without creating an object) call a static method from Them?
+-- Not from Interface, but from Abstract class.
 
  * */
 
