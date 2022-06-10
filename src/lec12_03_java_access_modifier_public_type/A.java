@@ -1,5 +1,7 @@
 package lec12_03_java_access_modifier_public_type;
 
+// Tofael: It (public) should be done after inheritance, private before Encapsulation. The other two in a suitable time
+
 public class A {
 	public String info1 = "This is coming from a variable which is public";
 
