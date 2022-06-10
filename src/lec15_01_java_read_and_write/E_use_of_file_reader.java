@@ -3,7 +3,7 @@ package lec15_01_java_read_and_write;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class D_use_of_file_reader {
+public class E_use_of_file_reader {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		String path = "C:\\Users\\Tofael\\Desktop\\EnthrallIT\\April2022.txt";

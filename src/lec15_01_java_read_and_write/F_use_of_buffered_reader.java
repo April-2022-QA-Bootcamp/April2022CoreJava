@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class E_use_of_buffered_reader {
+public class F_use_of_buffered_reader {
 
 	public static void main(String[] args) throws IOException {
 		String path = "C:\\Users\\Tofael\\Desktop\\EnthrallIT\\April2022.txt";
