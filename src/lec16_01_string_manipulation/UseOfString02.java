@@ -96,7 +96,7 @@ public class UseOfString02 {
 		// expression and returns a char array.
 		System.out.println("\n------------------------------------------------------------------------\n");
 		String s13 = "I am a java developer";
-		String[] words = s13.split(" "); // in short, split method convert a String to an Array
+		String[] words = s13.split(" "); // in short, split method convert a String to a Array
 		System.out.println(Arrays.toString(words));
 
 	}
