@@ -8,6 +8,7 @@ public class UseOfArray02 {
 		// This is new here
 		int [] a = new int [] {15, 34, 59, 5, 28, 12}; 
 		// Above is the alternate way to write Array, called literal representation
+		// Literal representation of an int type Array
 		// I didn't present - like a[0]=15, a[1]=34. no need to write that way, if you literally present the value inside the Array
 		System.out.println("\n------------- Printing single index value -------------\n");
 		System.out.println("Printing single index value: " + a[0]); // output: ?
