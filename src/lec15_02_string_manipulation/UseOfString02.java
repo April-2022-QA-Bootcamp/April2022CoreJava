@@ -2,7 +2,7 @@ package lec15_02_string_manipulation;
 
 import java.util.Arrays;
 
-public class UseOdString02 {
+public class UseOfString02 {
 
 	public static void main(String[] args) {
 		String s1 = "My name is John. ";

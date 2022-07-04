@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec23_java_selenium_methods.D01_use_of_gecko_or_firefox_driver_by_firefoxDriver">
+      <class name="lec26_java_selenium_methods.E03_use_of_explicitly_wait">
         <methods>
-          <include name="searchingProductsTest"/>
-          <include name="setUp"/>
           <include name="tearUp"/>
+          <include name="requestAnAppointmentTest01"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- lec23_java_selenium_methods.D01_use_of_gecko_or_firefox_driver_by_firefoxDriver -->
+      </class> <!-- lec26_java_selenium_methods.E03_use_of_explicitly_wait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
