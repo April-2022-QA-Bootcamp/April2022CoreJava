@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec26_java_selenium_methods.E03_use_of_explicitly_wait">
+      <class name="lec27_java_selenium_methods.F07_use_of_scroll_down_and_scroll_up_action">
         <methods>
+          <include name="scrollIntoViewTheElement"/>
           <include name="tearUp"/>
-          <include name="requestAnAppointmentTest01"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- lec26_java_selenium_methods.E03_use_of_explicitly_wait -->
+      </class> <!-- lec27_java_selenium_methods.F07_use_of_scroll_down_and_scroll_up_action -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
