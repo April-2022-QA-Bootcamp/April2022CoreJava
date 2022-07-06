@@ -6,6 +6,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,13 +15,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.testng.internal.AbstractParallelWorker.Arguments;
 
-public class F04_use_of_threadPoolSize_invocation_count_from_TestNG {
+public class F06_use_of_SkipException {
 	WebDriver driver;
 	JavascriptExecutor js;
 	WebDriverWait wait;
@@ -38,19 +40,27 @@ public class F04_use_of_threadPoolSize_invocation_count_from_TestNG {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	
-	// use of invocation count, when? -- if you know some test cases fail for no reason
-	// and then you fix it, you can run more than one time by invocation count	
-	// use of threadPoolSize
-	//TODO Is the threadPoolSize working? NEED TO RESOLVED, may be working as multi threaded, can't see, need to be make sure
-	@Test (enabled = true, priority = 1, threadPoolSize = 3, invocationCount = 10, timeOut = 10000)
-	public void titleTest() {	
+	// Explain in the next class, forgot to add
+	@Test(enabled = true, groups = { "functionalTest" })
+	public void nonSkipHomePageTitleTest() {
 		String expected = "CMS Enterprise Portal";
 		String actual = driver.getTitle();
-		System.out.println("Home Page Title is: "+actual);
-		Assert.assertEquals(actual, expected, "Home Page Title doesn't match ...");
-		System.out.println("Thread: "+ Thread.currentThread().getName()); // to know which thread is running
-
-	}
+		System.out.println("home page title is: " + actual);
+		Assert.assertEquals(actual, expected, "Home Page Title doesn't match...");	
+		System.out.println("No need to skip the test");
+	}	
+	
+	@Test(enabled = true, groups = { "functionalTest" })
+	public void skipHomePageTitleTest() {
+		String title = "CMS Enterprise Portal";
+		if (title.equals(driver.getTitle())) {
+			throw new SkipException("Skipping -- as the title matches as expected");
+		} else {
+			System.out.println("Home Page Title doesn't match...");
+		}
+		System.out.println("I am out of the if else condition");
+	}	
+	
 		
 	@AfterTest
 	public void tearUp() {

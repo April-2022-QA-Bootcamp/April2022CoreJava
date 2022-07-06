@@ -16,7 +16,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class F06_use_of_fluent_wait {
+public class F07_use_of_fluent_wait {
 	WebDriver driver;
 	JavascriptExecutor js;
 	WebDriverWait wait;

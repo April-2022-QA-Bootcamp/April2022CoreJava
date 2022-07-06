@@ -16,7 +16,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class F07_use_of_scroll_down_and_scroll_up_action {
+public class F09_use_of_scroll_down_and_scroll_up_action {
 	WebDriver driver;
 	JavascriptExecutor js;
 	WebDriverWait wait;

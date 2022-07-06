@@ -16,7 +16,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class F07_authenticationPopUp {
+public class F08_authenticationPopUp {
 	WebDriver driver;
 	JavascriptExecutor js;
 	WebDriverWait wait;
