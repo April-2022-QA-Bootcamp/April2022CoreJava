@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec28_java_selenium_methods.G04_use_of_slider_action">
+      <class name="lec38_java_selenium_methods.H03__switchWindows">
         <methods>
+          <include name="switchWindows"/>
           <include name="tearUp"/>
-          <include name="sliderActionTest01"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- lec28_java_selenium_methods.G04_use_of_slider_action -->
+      </class> <!-- lec38_java_selenium_methods.H03__switchWindows -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
