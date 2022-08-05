@@ -49,7 +49,7 @@ public class Use_of_wrapper_class {
 		System.out.println(2.5f + 2.5f + name4 + "  " + 1.25 + 1.25); // 5.03.15f 1.251.25
 		System.out.println(2.5f + 2.5f + name4 + "  " + (1.25 + 1.25) + 0.5 + 1.0 + (2.0 + 3.0)); // 5.03.15f
 																									// 2.500.51.05.0
-		System.out.println(name4); // 3.15f
+		System.out.println(name4); // 3.15
 		System.out.println(Float.parseFloat(name4)); // 3.15
 		System.out.println(2.5f + 2.5f + Float.parseFloat(name4)); // 8.15
 		System.out.println(2.5f + 2.5f + Float.parseFloat(name4) + "  " + (1.25 + 1.25) + 0.5 + 1.0 + (2.0 + 3.0)); // 8.15
