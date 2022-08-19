@@ -2,7 +2,7 @@ package lec48_java_coding_challenge;
 
 import java.util.Arrays;
 
-public class D01_largestNumber01 {
+public class D01_largestNumber {
 
 	public static void main(String[] args) {
 		// This is an array

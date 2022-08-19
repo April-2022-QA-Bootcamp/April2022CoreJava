@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // This solution is from Esfak, not accepted by Interviewer
 
-public class D04_findLargestAndSmallestNumber {
+public class D06_findLargestAndSmallestNumber {
 
 	public static void main(String[] args) {
 		// This is an array

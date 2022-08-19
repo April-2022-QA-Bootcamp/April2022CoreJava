@@ -2,7 +2,7 @@ package lec48_java_coding_challenge;
 
 // this is the interview question, not the previous 2
 
-public class D03_findLargestAndSmallestNumber {
+public class D05_findLargestAndSmallestNumber {
 
 	public static void main(String[] args) {
 		// This is an array

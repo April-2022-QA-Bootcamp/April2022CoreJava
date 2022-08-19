@@ -14,11 +14,11 @@ public class E03_findStringWhichPresentMoreThanOne {
 		for ( int i = 0; i<language.length; i++) {
 			for (int j = i+1; j<language.length; j++) {
 				if (language[i].equals(language[j])) {
-					notMoreThanOne.add(language[i]);
+					notMoreThanOne.add(language[j]);
 				}
 			}
 		}
-		System.out.println(notMoreThanOne);
+		System.out.println("String present more than one are: " + notMoreThanOne);
 	}
 
 }

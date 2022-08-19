@@ -7,6 +7,7 @@ public class E02_findStringWhichPresentMoreThanOne {
 		String[] name = { "Java", "C++", "C#", "Python", "Java", "C++", "Java", "Python", "Javascript", "C++" };
 
 		// This coding is not 100% correct, follow the next one
+		
 		for (int i = 0; i < name.length; i++) {
 			for (int j = i + 1; j < name.length; j++) {
 				if (name[i].equals(name[j])) {

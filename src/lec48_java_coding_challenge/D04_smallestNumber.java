@@ -1,6 +1,6 @@
 package lec48_java_coding_challenge;
 
-public class D02_smallestNumber {
+public class D04_smallestNumber {
 
 	public static void main(String[] args) {
 		// This is an array
