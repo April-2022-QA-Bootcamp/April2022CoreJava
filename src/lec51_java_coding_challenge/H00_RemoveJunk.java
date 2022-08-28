@@ -1,6 +1,6 @@
 package lec51_java_coding_challenge;
 
-public class G04_RemoveJunk {
+public class H00_RemoveJunk {
 	// not so important
 	public static void main(String[] args) {
 		String s = "Hello%&^&(1234)";

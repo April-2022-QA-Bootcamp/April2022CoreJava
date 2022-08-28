@@ -3,7 +3,7 @@ package lec51_java_coding_challenge;
 import java.util.Arrays;
 
 // very common interview question
-public class E06_SortTheString {
+public class E07_sort_the_string {
 
 	public static void main(String[] args) {
 		// Custom string input

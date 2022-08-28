@@ -9,16 +9,16 @@ Output: ?
 										
 */
 
-public class G04_triplet_that_sum_to_a_given_value {
+public class G05_triplet_that_sum_to_a_given_value {
 
 	static int [] array = { 5, 1, 4, 6, 10, 7, 12 };
 	static int sum = 22;
 	static int size = array.length;
 
+	// if we use boolean type, it can't find again, so, return type int is better, see next code
 	// returns true if there is triplet equal to sum
-	public static int find3Numbers(int [] array, int size, int sum) {
+	public static boolean find3Numbers(int [] array, int size, int sum) {
 		// Fix the first element as A[i]
-		int count = 0;
 		for (int i = 0; i < size - 2; i++) {
 
 			// Fix the second element as A[j]
@@ -27,19 +27,18 @@ public class G04_triplet_that_sum_to_a_given_value {
 				// Now look for the third number
 				for (int k = j + 1; k < size; k++) {
 					if (array[i] + array[j] + array[k] == sum) {
-						System.out.print("Triplets are:::> " + array[i] + ", " + array[j] + ", " + array[k] + "\n");
-						count ++;
+						System.out.print("Triplets are:::> " + array[i] + ", " + array[j] + ", " + array[k]);
+						return true;
 					}
 				}
 			}
 		}
-		System.out.println("Incident happen: " + count);
-		return count;
+		// If we reach here, then no triplet was found
+		return false;
 	}
 
 	// Driver program to test above functions
 	public static void main(String[] args) {
 		find3Numbers(array, size, sum);
-		
 	}
 }
