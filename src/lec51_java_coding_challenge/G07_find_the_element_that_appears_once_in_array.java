@@ -2,7 +2,15 @@ package lec51_java_coding_challenge;
 
 public class G07_find_the_element_that_appears_once_in_array {
 
-	// See next code , that is correct
+	
+	
+	// See next code G08, that is correct, THIS IS NOT, I KEPT IT FOR UNDERSTANDING THE MISTAKE
+	
+	
+	
+	
+	
+	
 	static int[] array = {2, 3, 5, 4, 5, 3, 4, 1, 3, 2};
 	static int size = array.length;
 

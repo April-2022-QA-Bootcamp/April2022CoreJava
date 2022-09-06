@@ -13,26 +13,18 @@ package lec51_java_coding_challenge;
 public class G03_left_triangle_star_pattern {
 
 	public static void StarleftTriangle(int n) {
-		int i, j;
+		
+		// check what happen if i=0
+		for (int i = 1; i <= n; i++) { // Outer loop for rows
 
-		// 1st loop
-		for (i = 0; i< n; i++) {
-
-			// nested 2nd loop
-			for (j = 2 * (n - i); j >= 0; j--) {
-				// printing spaces
-				System.out.print(" ");
+			for (int j = 1; j <= n - i; j++) { // Inner loop for space  
+			System.out.print("   ");
 			}
-
-			// nested 3rd loop
-			for (j = 0; j <= i; j++) {
-				// printing stars
-				System.out.print("*");
+			for (int k = 1; k <= i; k++) { // Inner loop for columns
+			System.out.print("* ");
 			}
-
-			// end-line
-			System.out.println();
-		}
+			System.out.println(); //throws the cursor in a new line after printing each line
+			} 
 	}
 
 	// Driver Function
